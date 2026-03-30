@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>JobPortal | Find Your Dream Career</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar Component -->
+    <nav class="navbar" id="navbar">
+      <div class="container nav-container">
+        <div class="logo">
+          <i class="fas fa-briefcase"></i>
+          <span>Job<span class="highlight">Portal</span></span>
+        </div>
+        <div class="nav-links" id="navLinks">
+          <a href="#" class="active" data-page="home"
+            ><i class="fas fa-home"></i> Home</a
+          >
+          <a href="#" data-page="jobs"><i class="fas fa-list-ul"></i> Jobs</a>
+          <a href="#" data-page="post"
+            ><i class="fas fa-plus-circle"></i> Post Job</a
+          >
+          <a href="#" data-page="dashboard"
+            ><i class="fas fa-chart-line"></i> Dashboard</a
+          >
+        </div>
+        <div class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="main-content">
+      <div class="container" id="pageContainer">
+        <!-- Dynamic pages will be injected here -->
+      </div>
+    </main>
+
+    <!-- Footer Component -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-col">
+          <h3>JobPortal</h3>
+          <p>
+            Connecting talent with opportunity. Find your next career move
+            today.
+          </p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#" data-page="home">Home</a></li>
+            <li><a href="#" data-page="jobs">Browse Jobs</a></li>
+            <li><a href="#" data-page="post">Post a Job</a></li>
+            <li><a href="#" data-page="dashboard">Dashboard</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Career Tips</a></li>
+            <li><a href="#">Salary Guide</a></li>
+            <li><a href="#">Companies</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><i class="fas fa-envelope"></i> sagarbastolasagar3@gmail.com</li>
+            <li><i class="fas fa-phone-alt"></i> +91 8131948181</li>
+            <li><i class="fas fa-map-marker-alt"></i> Assam Guwahati, India</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>SagarBastola &copy; 2025 JobPortal. All rights reserved. Empowering careers.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
