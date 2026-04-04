@@ -48,7 +48,7 @@ const initialJobs = [
   },
 ];
 
-// ==================== LOCALSTORAGE UTILS ====================
+// LOCALSTORAGE UTILS 
 function loadJobsFromStorage() {
   const stored = localStorage.getItem(STORAGE_KEY);
   if (!stored) {
@@ -65,11 +65,11 @@ function saveJobsToStorage(jobs) {
 // Global jobs array
 let jobsData = loadJobsFromStorage();
 
-// ==================== DOM ELEMENTS & STATE ====================
+// DOM ELEMENTS & STATE
 let currentPage = "home";
 let currentAlert = null;
 
-// ==================== HELPER FUNCTIONS ====================
+// HELPER FUNCTIONS
 function showAlert(message, type = "success") {
   const container = document.getElementById("pageContainer");
   if (currentAlert) currentAlert.remove();
@@ -96,7 +96,7 @@ function updateActiveNav(pageId) {
     });
 }
 
-// ==================== PAGE RENDERS ====================
+// PAGE RENDERS 
 function renderHomePage() {
   const stats = {
     total: jobsData.length,
